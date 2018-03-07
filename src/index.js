@@ -44,7 +44,6 @@
   4th Dec, 2017
 
   Developed by:
-    Anuja Tike
     Rashmeet Kaur Khanuja
 
  */
@@ -259,7 +258,7 @@ function createMap(month)
 }
 
 
-/*
+
 // To open detail view when state in map is clicked
 // creates modal, data object with relevant day/date and corresponding road traffic volume
 // and calls barplot() to create a bar chart
@@ -497,7 +496,6 @@ MongoClient.connect(url, function(err, db){
 //to display on mouse hover the name of holidays, date, and trafiic details
 //on the day before the holiday
 //
-/*
 function createBubbleChart(bubbleData){
 
         //select the container to place the bubble chart within
@@ -591,5 +589,3 @@ function createBubbleChart(bubbleData){
 
         }
 }
-
-*/
