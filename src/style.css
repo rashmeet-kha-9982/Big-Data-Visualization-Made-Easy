@@ -1,0 +1,134 @@
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+body{
+font-family: 'Times New Roman', Times, serif;
+
+font-weight: bold;
+overflow: hidden;
+}
+
+header{
+color: #1B1B2A;
+font-size:30px;
+font-weight: bold;
+top: 10px;
+}
+
+#container1{
+position : 0;
+ width: 80vw;
+ height: 80vh;
+ margin-top:0;
+
+}
+
+#container2{
+  position : relative;
+   width: 50vw;
+   height: 60vh;
+   margin-top:0;
+  }
+
+.modal-dialog{
+max-width: 70vw;
+margin:20;
+}
+
+.modal-title{
+font-weight: bold;
+}
+.modal-body{
+  font-weight: normal;
+}
+
+.modal-content{
+width:auto;
+margin: auto;
+}
+
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.bar {
+fill: orange;
+}
+
+.bar:hover {
+fill: orangered ;
+cursor: crosshair;
+}
+
+.d3-tooltip {
+background-color: palegreen;
+z-index: 10000;
+}
+
+#inputContainer{
+float: right;
+right: 0px;
+top: 40px;
+}
+
+.selectEl{
+position: relative;
+right:-20px;
+z-index:1000;
+}
+
+#overviewTable{
+top:50px;
+}
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.line{
+  fill : none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+#lineImg{
+  display: none;
+}
+
+.rubuttonClass{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.bubblebuttonClass{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.row.container-fluid{
+
+  overflow-x: scroll;
+}
+#outerDiv{
+  display: inline-flex;
+
+}
